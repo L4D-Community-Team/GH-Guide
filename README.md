@@ -122,6 +122,16 @@ You can find button `Create Pull Request` on `Changes` tab in app, which will op
 
 After pull request has been merged, you can safely remove your feature branch and keep contributing through new branches and pull requests.
 
+You can always switch between branches, as long as you don't have any uncommitted changes, and work on different features simultaneously.
+
+![prcollab](/src/prcollab.png)
+
+Also you can contribute to other people pull requests using an app. To see the list of active pull requests of original repository, you can click `Current branch` -> `Pull Requests` tab.
+
+Clicking on specific pull request will switch your local branch to related remote feature branch of its owner. There you should be able to commit your changes directly into that branch, and these commits will be added to PR.
+
+Note for PR owners accepting collaborations: app may require you to sync your local branch with remote branch (in case someone has committed something for PR) before pushing more changes, - can do so by clicking `Fetch origin` -> `Pull origin` on current feature branch.
+
 ## Merging Pull Request
 Now a maintainer (has write access) of original repository may merge your changes using one of three variants:
 - (default) `Create a merge commit` - adds commits from feature branch to commit history of `upstream`, along with new commit describing merge changes and referencing PR
