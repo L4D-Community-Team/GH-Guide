@@ -120,6 +120,8 @@ It will pull your changes in form of commits into commit history of original rep
 
 You can find button `Create Pull Request` on `Changes` tab in app, which will open a browser page comparing changes between two branches - original repository default and your feature branch. You may attach files or images to your messages on website and discuss proposed changes with others, as well as continue working on your feature branch by committing more changes to it.
 
+After pull request has been merged, you can safely remove your feature branch and keep contributing through new branches and pull requests.
+
 ## Merging Pull Request
 Now a maintainer (has write access) of original repository may merge your changes using one of three variants:
 - (default) `Create a merge commit` - adds commits from feature branch to commit history of `upstream`, along with new commit describing merge changes and referencing PR
